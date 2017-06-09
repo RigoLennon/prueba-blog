@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+  <body>
+  <h1><%= @article.title %></h1>
+  <p>
+    <%= truncate(@article.body, length: 30) %>
+  </p>
+  <p>
+    <a href="http://localhost:3000/articles/#{}"></a>
+  </p>
+  <p>
+    <%= link_to "Leer mas", article_url(@article) %>
+  </p>
+  </body>
+</html>

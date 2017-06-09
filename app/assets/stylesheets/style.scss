@@ -1,0 +1,115 @@
+html,body{
+  margin:0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a,a:visited{
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn{
+  background-color: inherit;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 10px 12px;
+}
+
+.be-big{
+  font-size: 2em;
+}
+
+.be-small{
+  font-size: 12px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.be-red{
+  background-color: #E74C3C;
+}
+
+.white{
+  color: #ECF0F1;
+}
+
+.grey{
+  color: #616161
+}
+
+.large-padding{
+  padding: 10px 7px;
+}
+
+.no-margin{
+  margin: 0px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.red{
+  color: #ff0100 !important;
+}
+
+.blue{
+  color:#66ccff !important;
+}
+#logo{
+  font-size: 1.2em;
+}
+
+.field,.top-space,.actions{
+  margin-top: 1em;
+}
+
+.background-cover{
+  background-position: center;
+  background-size: cover;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.article-height{
+  height: 150px;
+}
+
+.relative{
+position: relative;
+}
+
+.absolute{
+  position: absolute;
+}
+.form-control{
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  width: 100%;
+  display:block;
+  padding: 10px 0px;
+  font-size: 1.2em;
+}
+
+.bottom-space{
+  margin-bottom: 2em;
+}
+
+
+
